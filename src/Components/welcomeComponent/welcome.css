@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+.welcome-container {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(../../assets/welcome-page-bg.png);
+  background-position: center;
+  background-size: 100%;
+}
+.welcome-body {
+  width: fit-content;
+  height: fit-content;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+.home-btn {
+  width: 100%;
+  font-size: 1.1rem;
+  border-radius: 0px;
+  background-color: white;
+}
+
+.home-btn button {
+  text-transform: uppercase;
+  background-color: white;
+}
+.welcome-title {
+  font-size: 1.5rem;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.welcome-text {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+}

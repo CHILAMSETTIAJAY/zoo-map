@@ -1,0 +1,11 @@
+body,
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: block !important;
+}
+
+button:hover {
+  border-color: #646cff00 !important;
+}

@@ -1,0 +1,32 @@
+.splash-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #dcedc8;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.splash-image {
+    width: 60%;
+    opacity: 0;
+    animation: fadeIn 5s ease forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.creator{
+    position: absolute;
+    bottom: 20px;
+    font-size: 1rem;
+    color: black;
+    animation: fadeIn 5s ease forwards;
+}
